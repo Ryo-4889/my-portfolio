@@ -9,6 +9,68 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <script src="main.js"></script>
+    <h1>ポートフォリオサイト</h1>
+    <section>
+      <h2>私の名前は</h2>
+      <button id="my-profile-button">和泉諒祐</button>
+
+      <button id="my-profile-button2">泉亮介</button>
+
+      <button id="my-profile-button3">出海涼介</button>
+    </section>
+    <section>
+      <h3>出身</h3>
+      <button id="my-home-button">岡山</button>
+      <button id="my-home-button2">広島</button>
+      <button id="my-home-button3">愛媛</button>
+    </section>
+    <section>
+      <h4>大学</h4>
+      <button id="my-univ-button">広島大学</button>
+      <button id="my-univ-button2">島根大学</button>
+      <button id="my-univ-button3">愛媛大学</button>
+    </section>
   </body>
+
+  <script src="main.js">
+    const profileButton1 = document.getElementById("my-profile-button1");
+    const profileButton2 = document.getElementById("my-profile-button2");
+    const profileButton3 = document.getElementById("my-profile-button3");
+    profileButton1.onclick = function () {
+      profileButton1.textContent = "正解";
+    };
+    profileButton2.onclick = function () {
+      profileButton2.textContent = "不正解";
+    };
+    profileButton3.onclick = function () {
+      profileButton3.textContent = "不正解";
+    };
+
+    const mycountryButton1 = document.getElementById("my-home-button");
+    const mycountryButton2 = document.getElementById("my-home-button2");
+    const mycountryButton3 = document.getElementById("my-home-button3");
+
+    mycountryButton1.onclick = function () {
+      mycountryButton1.textContent = "不正解";
+    };
+    mycountryButton2.onclick = function () {
+      mycountryButton2.textContent = "正解";
+    };
+    mycountryButton3.onclick = function () {
+      mycountryButton3.textContent = "不正解";
+    };
+    const myunivButton1 = document.getElementById("my-univ-button");
+    const myunivButton2 = document.getElementById("my-univ-button2");
+    const myunivButton3 = document.getElementById("my-univ-button3");
+
+    myunivButton1.onclick = function () {
+      myunivButton1.textContent = "不正解";
+    };
+    myunivButton2.onclick = function () {
+      myunivButton2.textContent = "不正解";
+    };
+    myunivButton3.onclick = function () {
+      myunivButton3.textContent = "正解";
+    };
+  </script>
 </html>
