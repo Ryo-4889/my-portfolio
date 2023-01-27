@@ -19,7 +19,7 @@
       <button id="homecountry">出身</button>
     </section>
     <section>
-      <div id="answercountry"></div>
+      <button id="answercountry"></button>
     </section>
     <section>
       <button id="hobby">趣味</button>
@@ -31,7 +31,8 @@
       <button id="favouriteartist">好きなアーティスト</button>
     </section>
     <section>
-      <div id="answerfavouriteartist"></div>
+      <button id="answerfavouriteartist"></button>
+      <button id="answerfavouriteartist2"></button>
     </section>
     <section>
       <button id="challengemyself">なりたい自分</button>
@@ -43,18 +44,42 @@
   <script>
     const nameButton = document.getElementById("name");
     const nameans = document.getElementById("answername");
-    nameButton.onclick = function () {
-      nameans.textContent = "和泉諒祐";
-    };
     const countryButton = document.getElementById("homecountry");
     const countryans = document.getElementById("answercountry");
+    nameButton.onclick = function () {
+      nameans.textContent = "和泉諒祐";
+      countryButton.button;
+    };
+
     countryButton.onclick = function () {
       countryans.textContent = "広島県";
+    };
+    countryans.onclick = function () {
+      document.location = "https://www.pref.hiroshima.lg.jp/";
     };
     const hobbyButton = document.getElementById("hobby");
     const hobbyans = document.getElementById("answerhobby");
     hobbyButton.onclick = function () {
       hobbyans.textContent = "サッカー，音楽を聴くこと";
+    };
+    const favoartistButton = document.getElementById("favouriteartist");
+    const favoartistans = document.getElementById("answerfavouriteartist");
+    const favoartistans2 = document.getElementById("answerfavouriteartist2");
+    favoartistButton.onclick = function () {
+      favoartistans.textContent = "GReeeeN";
+      favoartistans2.textContent = "あいみょん";
+    };
+    favoartistans.onclick = function () {
+      document.location = "http://greeeen.co.jp/";
+    };
+    favoartistans2.onclick = function () {
+      document.location = "https://www.aimyong.net/";
+    };
+    const challengeselfButton = document.getElementById("challengemyself");
+    const challengeselfans = document.getElementById("answerchallengemyself");
+    challengeselfButton.onclick = function () {
+      challengeselfans.textContent =
+        "プログラミングをすらすらかけるようになる！";
     };
   </script>
 </html>
