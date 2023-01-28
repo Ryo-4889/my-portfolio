@@ -1,3 +1,35 @@
-my-portfolio-button {
-  justify-content: space-between;
+.background {
+  height: 1100px;
+  padding: 50px;
+  font-size: 50px;
+  background-color: skyblue;
+  text-align: center;
+}
+.fontcolourmyself {
+  font-size: 50px;
+  color: blue;
+}
+.fontcolourmyname {
+  font-size: 50px;
+  color: olivedrab;
+}
+.fontcolourhomecountry {
+  font-size: 50px;
+  color: #e2421f;
+}
+.fontcolourhobby {
+  font-size: 50px;
+  color: purple;
+}
+.fontcolourfavoartist {
+  font-size: 50px;
+  color: green;
+}
+.fontcolourfavoartist2 {
+  font-size: 50px;
+  color: #d37020;
+}
+.fontcolourchallengemyself {
+  font-size: 50px;
+  color: lawngreen;
 }

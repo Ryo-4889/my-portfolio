@@ -9,37 +9,45 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
-    <h2>自己紹介</h2>
-    <section>
-      <button id="name">名前</button>
-      <div id="answername"></div>
-    </section>
-    <section>
-      <button id="homecountry">出身</button>
-    </section>
-    <section>
-      <button id="answercountry"></button>
-    </section>
-    <section>
-      <button id="hobby">趣味</button>
-    </section>
-    <section>
-      <div id="answerhobby"></div>
-    </section>
-    <section>
-      <button id="favouriteartist">好きなアーティスト</button>
-    </section>
-    <section>
-      <button id="answerfavouriteartist"></button>
-      <button id="answerfavouriteartist2"></button>
-    </section>
-    <section>
-      <button id="challengemyself">なりたい自分</button>
-    </section>
-    <section>
-      <div id="answerchallengemyself"></div>
-    </section>
+    <div class="background">
+      ポートフォリオサイト
+      <h2 class="fontcolourmyself">自己紹介</h2>
+      <section>
+        <button id="name">名前</button>
+        <div class="fontcolourmyname" id="answername"></div>
+      </section>
+      <section>
+        <button id="homecountry">出身</button>
+      </section>
+      <section>
+        <button class="fontcolourhomecountry" id="answercountry"></button>
+      </section>
+      <section>
+        <button id="hobby">趣味</button>
+      </section>
+      <section>
+        <div class="fontcolourhobby" id="answerhobby"></div>
+      </section>
+      <section>
+        <button id="favouriteartist">好きなアーティスト</button>
+      </section>
+      <section>
+        <button
+          class="fontcolourfavoartist"
+          id="answerfavouriteartist"
+        ></button>
+        <button
+          class="fontcolourfavoartist2"
+          id="answerfavouriteartist2"
+        ></button>
+      </section>
+      <section>
+        <button id="challengemyself">なりたい自分</button>
+      </section>
+      <section>
+        <div class="fontcolourchallengemyself" id="answerchallengemyself"></div>
+      </section>
+    </div>
   </body>
   <script>
     const nameButton = document.getElementById("name");
